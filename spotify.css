@@ -4,9 +4,22 @@
 }
 
 .cor{
-    color:rgb(13, 238, 200);
+    color:black;
 }
 
 #nova{
-    color: red;
+    color: white;
+    background-color: black;
 }
+
+*{
+    background-color:lightblue; 
+}
+
+.oi{
+    border-style: solid;
+    border-width: ;
+    border-color: green;
+    border-radius: 5px;
+}
+
