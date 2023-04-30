@@ -14,7 +14,7 @@
 <hr>
 
 <label for="fname"><strong>NOME DA SUA PLAYLIST:</strong></label><br>
-  <input type="text" id="fname" name="nome da playlist" class="oi"><br>
+  <input type="text" id="fname" name="nome da playlist" class="oi" ><br>
   <hr>
   <p><strong>ESCOLHA SEUS ESTILOS DE MÚSICA:</strong></p>
   <input type="checkbox" id="vehicle1" name="vehicle1" value="sertanejo">
@@ -29,20 +29,35 @@
   <label for="vehicle2" class="cor"> RAP</label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="trap">
   <label for="vehicle3" class="cor"> TRAP</label><br>
+
+  <label for="estilo">Outros:</label>
+<select id="estilos" name="estilos">
+  <option value="axé" class="cor">AXÉ</option>
+  <option value="PAGODE" class="cor">PAGODE</option>
+  <option value="SAMBA" class="cor">SAMBA</option>
+  <option value="MPB" class="cor">MPB</option>
+  <option value="FORRÓ" class="cor">FORRÓ</option>
+  <option value="K-POP" class="cor">K-POP</option>
+  <option value="REGGAETON" class="cor">REGGAETON</option>
+  <option value="BREGA" class="cor">BREGA</option>
+</select>
+</select>
+  </form>
   <hr>
   
-  <h3>QUAIS SÃO SEUS CANTORES FAVORITOS?</h3>
+  <h3>LISTE SEU TOP 10 CANTORES FAVORITOS: </h3>
   <textarea name="message" rows="10" cols="25">
     
     </textarea><br>
   
 <hr>
 <label for="email"><strong>EMAIL:</strong></label><br>
-<input type="email" id="email" name="email" class="oi"><br>
+<input type="email" id="email" name="email" class="oi" size="25"><br>
   <label for="fname"><strong>CONTATO:</strong></label><br>
-  <input type="text" id="fname" name="contato" class="oi"><br>
+  <input type="text" id="fname" name="contato" class="oi" size="12"><br>
   <br>
-  <input type="submit" value="Enviar" id="nova">
+  <input type="submit" value="Enviar" id="nova" onclick="alert('Playlist criada!')">
+
     </form>
 </body>
 </html>
